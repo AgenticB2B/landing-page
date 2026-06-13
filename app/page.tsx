@@ -7,8 +7,8 @@ const CONTACT_EMAIL = "hello@agenticb2b.tech";
 
 const painPoints = [
   {
-    title: "600 visiting cards, one Excel sheet",
-    body: "Your team collects hundreds of leads at every show. Two weeks later they sit in a spreadsheet nobody opens again.",
+    title: "600 visiting cards, one bulk email",
+    body: "After the show, your team blasts a single email to all 600 contacts. No context from what was discussed at the stall, no sense of who wants what. Most land in spam, replies are near zero, and your domain reputation quietly takes the hit.",
   },
   {
     title: "Sales is back on the shop floor",
@@ -44,15 +44,14 @@ const steps = [
 ];
 
 const forYou = [
-  "You exhibit at shows like AMTEX, IMTEX, ELECRAMA, or ACMEE",
+  "You exhibit at trade shows — engineering, electrical, auto, pharma, packaging, plastics, food, infrastructure, or any B2B sector",
   "You collect 200+ leads per show and follow up with fewer than half",
-  "Your order sizes justify a meeting (machines, components, projects)",
+  "You offer customized solutions or products and need qualified conversations to close",
   "You want booked meetings, not another CRM license",
 ];
 
 const notForYou = [
   "You don't exhibit at trade shows or industry events",
-  "You sell B2C or low-ticket products",
   "You want to buy software and run it yourself",
   "You can't share your lead list from the last show",
 ];
@@ -103,7 +102,7 @@ export default function Home() {
         <div className="relative mx-auto max-w-4xl px-6 pt-24 text-center">
           <Reveal>
             <p className="mb-5 text-sm font-medium uppercase tracking-widest text-accent-soft">
-              AI lead recovery for Indian manufacturers
+              AI lead recovery for Indian B2B exhibitors
             </p>
             <h1 className="font-display text-4xl font-semibold leading-tight sm:text-6xl">
               Your exhibition leads aren&apos;t dead.
@@ -111,9 +110,8 @@ export default function Home() {
               <span className="text-accent-soft">They&apos;re just unfollowed.</span>
             </h1>
             <p className="mx-auto mt-6 max-w-2xl text-lg text-muted">
-              agenticb2b installs an AI follow-up engine that researches every lead
-              from your last trade show, re-engages them on WhatsApp and email, and
-              books qualified meetings on your calendar.
+              At agenticb2b, we research every lead from your last trade show,
+              re-engage them personally, and book qualified meetings on your calendar.
             </p>
             <div className="mt-10">
               <CTAButton />
